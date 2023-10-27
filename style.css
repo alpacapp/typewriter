@@ -1,0 +1,13 @@
+#_BLOCK_ .typewriter {
+  white-space: pre-wrap;
+}
+#_BLOCK_ .typewriter::after {
+    content: "|";
+    display: inline;
+    animation: typewritter-carret-blink 1s infinite;
+}
+@keyframes typewritter-carret-blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}

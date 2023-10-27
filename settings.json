@@ -1,0 +1,11 @@
+{
+    "name": "Typewriter",
+    "handle": "typewriter",
+    "author": "alpacapp",
+    "category": "basic",
+    "description": "Typewriter effect on text. Animates your text as if it's being written on a typewriter.",
+    "entry": "block.liquid",
+    "script": "script.js",
+    "stylesheet": "style.css",
+    "icon": "text_select_move_forward_character"
+}

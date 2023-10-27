@@ -1,0 +1,50 @@
+{
+    "elements": [
+      {
+      	"name": "Typewriter",
+      	"handle": "typewriter",
+      	"customizations": "all",
+      	"hoverCustomizations": true,
+      	"defaults": {
+      		"font-size"			: 2.2, // in em units
+      	},
+      }
+    ],
+	"properties"	: [
+		{
+			"name"			: "Content",
+			"variable"		: "content",
+            "multiline"		: true,
+			"type"			: "text",
+			"default"		: "Graphic Design\nWeb development\nTypography\nFilmmaking"
+		},
+        {
+			"name"			: "Effect",
+			"variable"		: "effect",
+			"type"			: "dropdown",
+            "options"		: [
+              {
+                "name":"Typewriter",
+                "value":"typewriter"
+              },
+              {
+                "name":"Typewriter (loop)",
+                "value":"typewriterLoop"
+              },
+              {
+                "name":"Line-by-Line",
+                "value":"linebyline"
+              }
+            ],
+			"default"		: "linebyline"
+		},
+        {
+			"name"			: "Speed Factor",
+			"variable"		: "speedFactor",
+			"type"			: "slider",
+            "min"			: 0.1,
+            "max"			: 5,
+			"default"		: 1.0
+		},
+	]
+}
